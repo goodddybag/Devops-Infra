@@ -149,7 +149,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   
   # Provisioner to copy Ansible playbook to VM
   provisioner "file" {
-    source      = "/home/azureuser/DevOps-Stage4-Infra/ansible-playbook.yml"  # Your local playbook file location
+    source      = "/home/todovm/DevOps-Stage4-Infra/ansible-playbook.yml"  # Your local playbook file location
     destination = "/home/adminuser/ansible-playbook.yml"
 
     connection {
