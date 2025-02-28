@@ -42,8 +42,8 @@ This creates:
 ### **2. Clone the Repository and login to your Azure account**
 ```sh
 git clone (https://github.com/goodddybag/Devops-Infra.git)
-cd Infra-code
-az login --tenant tenantID
+cd Devops-Infra
+az login 
 ```
 
 ```sh
